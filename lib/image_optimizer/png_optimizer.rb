@@ -32,7 +32,7 @@ class ImageOptimizer
     end
 
     def command_options
-      flags = %w[-o7]
+      flags = %w[-o2 -strip all]
       flags << quiet if options[:quiet]
       flags << path
     end
